@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export interface IOutsideClick {
   onOutside: () => void;
-  children: any;
+  children?: any;
   wrapperRef?: any;
   onBlur?: () => void;
 }

@@ -1,29 +1,5 @@
 import * as React from 'react';
-import styled from 'styled-components';
-
-const Content = styled.div`
-  display: flex;
-`;
-
-const StyledTab = styled.div`
-  color: ${(props: { selected: boolean }) => (props.selected ? '#fff' : '#282828')};
-  background: ${(props: { selected: boolean }) => (props.selected ? '#308c91' : '#fff')};
-  padding: ${(props: { selected: boolean }) => (props.selected ? '8px 20px' : '7px 20px')};
-  border-right: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  cursor: pointer;
-  flex: 1;
-  text-align: center;
-  border: ${(props: { selected: boolean }) => (props.selected ? 'none' : '1px solid #ccc')};
-  align-self: center;
-
-  &:first-child {
-    border-radius: 5px 0 0 5px;
-  }
-  &:last-child {
-    border-radius: 0 5px 5px 0;
-  }
-`;
+import { Content, StyledTab } from './ButtonTab.style';
 
 export interface IButtonTabList {
   id: string | number;

@@ -2,10 +2,10 @@
 
 exports[`IconNavBar should cover when onSelect() prop not passed 1`] = `
 <div
-  className="sc-EHOje jTDsAy"
+  className="sc-iwsKbI bupliE"
 >
   <div
-    className="sc-bZQynM icdWAQ"
+    className="sc-gZMcBi kTmlzl"
     selected={false}
   >
     <i
@@ -26,10 +26,10 @@ exports[`IconNavBar should cover when onSelect() prop not passed 1`] = `
 
 exports[`IconNavBar should cover when prop.keys passed 1`] = `
 <div
-  className="sc-EHOje jTDsAy"
+  className="sc-iwsKbI bupliE"
 >
   <div
-    className="sc-bZQynM icdWAQ"
+    className="sc-gZMcBi kTmlzl"
     selected={false}
   >
     <i
@@ -50,10 +50,10 @@ exports[`IconNavBar should cover when prop.keys passed 1`] = `
 
 exports[`IconNavBar should render correctly 1`] = `
 <div
-  className="sc-EHOje jTDsAy"
+  className="sc-iwsKbI bupliE"
 >
   <div
-    className="sc-bZQynM icdWAQ"
+    className="sc-gZMcBi kTmlzl"
     selected={false}
   >
     <i

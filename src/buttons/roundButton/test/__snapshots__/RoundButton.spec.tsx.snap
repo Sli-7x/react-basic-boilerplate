@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render correctly 1`] = `
+<div
+  className="sc-bdVaJa hhLoUU"
+>
+  <button
+    className="sc-bwzfXH iURKpz"
+    selected={false}
+  >
+    <i
+      className="material-icons"
+      style={
+        Object {
+          "color": "#327f85",
+          "display": "block",
+          "fontSize": "25px",
+        }
+      }
+      title=""
+    >
+      
+    </i>
+  </button>
+</div>
+`;
+
+exports[`RoundButton should render correctly 1`] = `
+<div
+  className="sc-bdVaJa hhLoUU"
+>
+  <button
+    className="sc-bwzfXH iURKpz"
+    selected={false}
+  >
+    <i
+      className="material-icons"
+      style={
+        Object {
+          "color": "#327f85",
+          "display": "block",
+          "fontSize": "25px",
+        }
+      }
+      title=""
+    >
+      
+    </i>
+  </button>
+</div>
+`;
+
+exports[`RoundButton should render correctly 2`] = `
+<div
+  className="sc-bdVaJa hhLoUU"
+>
+  <button
+    className="sc-bwzfXH jFYXBd"
+    selected={true}
+  >
+    <i
+      className="material-icons"
+      style={
+        Object {
+          "color": "#fff",
+          "display": "block",
+          "fontSize": "25px",
+        }
+      }
+      title=""
+    >
+      
+    </i>
+  </button>
+</div>
+`;

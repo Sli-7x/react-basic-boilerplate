@@ -32,7 +32,7 @@ export interface ISelectProps {
 
 export class Select extends React.Component<ISelectProps, any> {
   static defaultProps: ISelectProps = {
-    onChange: () => undefined,
+    onChange: () => {},
     value: null,
     label: undefined,
     placeholder: undefined,
@@ -58,7 +58,7 @@ export class Select extends React.Component<ISelectProps, any> {
       showList: false,
       focused: false,
       selected: { id: null, title: '' },
-      keys: props.keys ? props.keys : { id: 'id', title: 'title', childs: 'childs' },
+      keys: props.keys,
       fakeSelect: null,
       list: [],
       search: '',

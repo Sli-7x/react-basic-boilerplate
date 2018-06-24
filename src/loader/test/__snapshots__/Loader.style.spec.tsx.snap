@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader.style Container should cover when passed full=true to Container 1`] = `
+<div
+  className="sc-bdVaJa eQWyBw"
+/>
+`;
+
+exports[`Loader.style Container should render correctly 1`] = `
+<div
+  className="sc-bdVaJa bTWqcc"
+/>
+`;

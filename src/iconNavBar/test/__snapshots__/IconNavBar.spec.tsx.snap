@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconNavBar should cover when onSelect() prop not passed 1`] = `
+<div
+  className="sc-EHOje jTDsAy"
+>
+  <div
+    className="sc-bZQynM icdWAQ"
+    selected={false}
+  >
+    <i
+      className="material-icons"
+      onClick={[Function]}
+      style={
+        Object {
+          "fontSize": "25px",
+        }
+      }
+      title=""
+    >
+      
+    </i>
+  </div>
+</div>
+`;
+
+exports[`IconNavBar should cover when prop.keys passed 1`] = `
+<div
+  className="sc-EHOje jTDsAy"
+>
+  <div
+    className="sc-bZQynM icdWAQ"
+    selected={false}
+  >
+    <i
+      className="material-icons"
+      onClick={[Function]}
+      style={
+        Object {
+          "fontSize": "25px",
+        }
+      }
+      title=""
+    >
+      random
+    </i>
+  </div>
+</div>
+`;
+
+exports[`IconNavBar should render correctly 1`] = `
+<div
+  className="sc-EHOje jTDsAy"
+>
+  <div
+    className="sc-bZQynM icdWAQ"
+    selected={false}
+  >
+    <i
+      className="material-icons"
+      onClick={[Function]}
+      style={
+        Object {
+          "fontSize": "25px",
+        }
+      }
+      title=""
+    >
+      
+    </i>
+  </div>
+</div>
+`;

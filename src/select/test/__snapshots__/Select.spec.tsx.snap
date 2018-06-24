@@ -18,11 +18,11 @@ exports[`Select should render correctly 1`] = `
   >
     
     <div
-      className="sc-bdVaJa jssVcr"
+      className="sc-htpNat mdOCE"
       style={Object {}}
     >
       <input
-        className="sc-bwzfXH fvJNoc"
+        className="sc-bxivhb cMFAVQ"
         onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
@@ -32,11 +32,11 @@ exports[`Select should render correctly 1`] = `
         value=""
       />
       <div
-        className="sc-htpNat cigveX"
+        className="sc-ifAKCX gEMfkf"
       />
     </div>
     <div
-      className="sc-bxivhb gJgVmz"
+      className="sc-EHOje jDtHSS"
     >
       <div
         style={

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonTab should render correctly 1`] = `
+<div
+  className="sc-bdVaJa kZAgjJ"
+>
+  <div
+    className="sc-bwzfXH gfKqew"
+    onClick={[Function]}
+    selected={false}
+  >
+    test
+  </div>
+</div>
+`;

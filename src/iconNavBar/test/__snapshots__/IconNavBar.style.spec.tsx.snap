@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconNavBar.style Item should cover when passed selected=true to Item 1`] = `
+<div
+  className="sc-bwzfXH bmWnPJ"
+  selected={true}
+/>
+`;
+
+exports[`IconNavBar.style Item should render correctly Item 1`] = `
+<div
+  className="sc-bwzfXH eqnpGN"
+  selected={false}
+/>
+`;

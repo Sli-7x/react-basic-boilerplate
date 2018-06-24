@@ -8,7 +8,8 @@
     "start": "webpack-dev-server --hot --history-api-fallback --open",
     "build": "webpack --config webpack.prod.config.js",
     "test": "export NODE_ENV=test && jest --watchAll",
-    "test:coverage": "export NODE_ENV=test && jest --env=jsdom --no-cache --coverage"
+    "test:coverage": "export NODE_ENV=test && jest --env=jsdom --no-cache --coverage",
+    "precommit": "lint-staged"
   },
   "keywords": [
     "ui"
@@ -21,6 +22,7 @@
     "react": "^16.4.1",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.4.1",
+    "react-modal": "^3.4.5",
     "react-test-renderer": "^16.4.1",
     "styled-components": "^3.3.3"
   },
@@ -30,9 +32,11 @@
     "@types/react": "^16.4.1",
     "@types/react-custom-scrollbars": "^4.0.3",
     "@types/react-dom": "^16.0.6",
+    "@types/react-modal": "^3.1.2",
     "@types/react-test-renderer": "^16.0.1",
     "awesome-typescript-loader": "^5.2.0",
     "html-webpack-plugin": "^3.2.0",
+    "husky": "^1.0.0-rc.9",
     "jest": "^23.1.0",
     "jest-styled-components": "^5.0.1",
     "ts-jest": "^22.4.6",
@@ -45,6 +49,12 @@
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tslint && npm test:coverage",
+      "pre-push": "npm test"
+    }
+  },
   "jest": {
     "moduleFileExtensions": [
       "ts",
@@ -55,7 +65,7 @@
       "^.+\\.(ts|tsx)$": "ts-jest"
     },
     "testMatch": [
-      "**/tests/*.spec.(ts|tsx|js)"
+      "**/test/*.spec.(ts|tsx|js)"
     ],
     "setupFiles": [
       "<rootDir>config/jest/bootstrap.js"

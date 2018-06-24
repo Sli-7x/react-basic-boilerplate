@@ -7,7 +7,7 @@ export interface IOutsideClick {
   onBlur?: () => void;
 }
 
-class OutsideClick extends React.Component<IOutsideClick, {}> {
+export class OutsideClick extends React.Component<IOutsideClick, {}> {
   private wrapperRef: any;
 
   constructor(props: IOutsideClick) {
@@ -49,5 +49,3 @@ class OutsideClick extends React.Component<IOutsideClick, {}> {
     );
   }
 }
-
-export default OutsideClick;

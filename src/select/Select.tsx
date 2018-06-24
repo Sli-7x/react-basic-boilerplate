@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Scrollbars from 'react-custom-scrollbars';
-import OutsideClick from '../outsideClick/OutsideClick';
+import { OutsideClick } from '../index';
 import { InputStyle, Triangle, InputContent, DropDown, Item } from './Select.style';
 
 export interface ISelected {
@@ -137,7 +137,7 @@ export class Select extends React.Component<ISelectProps, any> {
       const index = list.findIndex((x: ISelected) => x[this.state.keys.id] === value[this.state.keys.id]);
 
       if (index > -1) {
-        const nrTo = scrollHeight / list.length * index;
+        const nrTo = (scrollHeight / list.length) * index;
         this.scrollbarsRef.scrollTop(nrTo - 30);
       }
     }

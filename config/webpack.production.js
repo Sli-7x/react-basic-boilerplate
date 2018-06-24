@@ -5,11 +5,11 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   mode: 'production',
-  devtool: 'source-map', // eval
+  devtool: 'source-map',
   entry: './src/index',
 
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, '..', 'dist'),
     publicPath: '/',
     pathinfo: true,
   },
@@ -44,7 +44,7 @@ module.exports = {
     ],
   },
 
-  plugins: [ new CheckerPlugin() ],
+  plugins: [new CheckerPlugin()],
   externals: [],
   node: {
     fs: 'empty',

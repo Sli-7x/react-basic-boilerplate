@@ -1,0 +1,26 @@
+# Node build artifacts
+npm-debug.log
+
+# Folders #
+/dist
+/server
+/node_modules
+/coverage
+server.min.js
+now.json
+package-lock.json
+
+# Local development
+*.env
+*.dev
+.directory
+.DS_Store
+*.tar
+*.zip
+*.7z
+*.gz
+*.exe
+
+# Docker
+Dockerfile
+docker-compose.yml

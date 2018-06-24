@@ -12,8 +12,10 @@ describe('RoundButton', () => {
   it('should render correctly', () => {
     const tree = renderer.create(<RoundButton {...props} />).toJSON();
     expect(tree).toMatchSnapshot();
+  });
 
-    const tree2 = renderer.create(<RoundButton {...props} selected={true} />).toJSON();
-    expect(tree2).toMatchSnapshot();
+  it('should render correctly when selected true', () => {
+    const tree = renderer.create(<RoundButton {...props} selected={true} />).toJSON();
+    expect(tree).toMatchSnapshot();
   });
 });

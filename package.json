@@ -8,8 +8,7 @@
     "start": "webpack-dev-server --hot --history-api-fallback --open",
     "build": "webpack --config webpack.prod.config.js",
     "test": "export NODE_ENV=test && jest --watchAll",
-    "test:coverage": "export NODE_ENV=test && jest --env=jsdom --no-cache --coverage",
-    "precommit": "lint-staged"
+    "test:coverage": "export NODE_ENV=test && jest --env=jsdom --no-cache --coverage"
   },
   "keywords": [
     "ui"
@@ -51,7 +50,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tslint && npm test:coverage",
+      "pre-commit": "tslint --project '.' && npm test:coverage",
       "pre-push": "npm test"
     }
   },

@@ -9,7 +9,6 @@ exports[`Select should render correctly 1`] = `
   }
 >
   <div
-    onBlur={undefined}
     style={
       Object {
         "height": "100%",
@@ -27,7 +26,6 @@ exports[`Select should render correctly 1`] = `
         onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
-        placeholder={undefined}
         readOnly={true}
         style={Object {}}
         type="text"
